@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Injected code, this is not present in original code --><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script class="n60os5oy" src="/n60os5oy_console.js" crossorigin="anonymous"></script>
+    <script class="n60os5oy">
+      if(window.eruda){
+        eruda.init({
+          theme: 'dark'
+        });
+
+        eruda._shadowRoot.querySelector('.eruda-entry-btn').style.display = 'none';
+
+        sessionStorage.setItem('__console_available', true);
+        document.addEventListener('showconsole', function () {eruda.show()});
+        document.addEventListener('hideconsole', function () {eruda.hide()});
+      }else if(document.querySelector('c-toggler')){
+        document.querySelector('c-toggler').style.display = 'none';
+      }
+      setTimeout(function(){
+        var scripts = document.querySelectorAll('.n60os5oy');
+        scripts.forEach(function(el){document.head.removeChild(el)});
+      }, 0);
+    </script><!-- Injected code, this is not present in original code -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dhara- Online UPSC Preparation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>dhara IAS</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Study Material</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to dhara IAS</h2>
+      <p>Your trusted partner in UPSC exam preparation</p>
+      <button onclick="location.href='#courses'">Browse Courses</button>
+    </div>
+  </section>
+
+  <section class="courses" id="courses">
+    <h2>Popular Courses</h2>
+    <div class="course-cards">
+      <div class="course-card">
+        <h3>General Studies</h3>
+        <p>Comprehensive UPSC preparation for General Studies</p>
+        <button onclick="location.href='#'">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <h3>Geography</h3>
+        <p>Detailed Geography course for UPSC Mains</p>
+        <button onclick="location.href='#'">Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <h3>Political Science</h3>
+        <p>Focused Political Science study material and coaching</p>
+        <button onclick="location.href='#'">Enroll Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="study-material">
+    <h2>Study Material</h2>
+    <div class="material-cards">
+      <div class="material-card">
+        <h3>Current Affairs</h3>
+        <p>Stay updated with daily current affairs for UPSC</p>
+        <button onclick="location.href='#'">Download PDF</button>
+      </div>
+      <div class="material-card">
+        <h3>Books & Resources</h3>
+        <p>Access the best books and resources for UPSC preparation</p>
+        <button onclick="location.href='#'">Download</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 dhara IAS | All Rights Reserved</p>
+  </footer>
+
+  <script src="app.js" crossorigin="anonymous"></script>
+</body>
+</html>
